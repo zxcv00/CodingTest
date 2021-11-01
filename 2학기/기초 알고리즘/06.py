@@ -11,6 +11,9 @@ for i in range(len(t)):
         if t[i + 1] == find[1]:
             if t[i + 2] == find[2]:
                 count += 1
-
 print(count)
+
+# 함수 한 번으로 문제 해결 가능
+print(t.count(find))
+
 
