@@ -7,7 +7,7 @@ result = list()
 
 for x in arr:
     if x != 2:
-        # 새로운 공간에 x 넣기
+        # result에 x 넣기
         result.append(x)
 
 print(result)
