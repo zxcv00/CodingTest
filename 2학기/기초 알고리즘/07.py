@@ -3,11 +3,11 @@
 
 arr = [1, 2, 2, 2, 3, 1, 1, 3, 2]
 
-new = list()
+result = list()
 
 for x in arr:
     if x != 2:
         # 새로운 공간에 x 넣기
-        new.append(x)
+        result.append(x)
 
-print(new)
+print(result)
